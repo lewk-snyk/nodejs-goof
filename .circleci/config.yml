@@ -24,3 +24,5 @@ workflows:
   say-hello-workflow:
     jobs:
       - say-hello
+orbs: 
+  snyk: snyk/snyk@1.1.2
