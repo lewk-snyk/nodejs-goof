@@ -19,7 +19,7 @@ jobs:
           name: "Say hello"
           command: "echo Hello, World!"
       
-          snyk/scan:
+      - snyk/scan:
           severity-threshold: high
           token-variable: SNYK_TOKEN
         
